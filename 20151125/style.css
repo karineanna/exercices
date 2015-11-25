@@ -1,0 +1,80 @@
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+
+body {
+	background:url(footer_lodyas.png);
+	font-family:Lobster Two;
+	width:600px;
+	vertical-align: middle;
+	display: table-cell;
+}
+
+nav {
+	font-family:Lato;
+	text-align:center;
+	display:inline;
+}
+
+nav li {
+	display:inline
+	font-size:30px;
+}
+
+h1 {
+	color:white;
+	font-family:Lobster Two;
+	text-align:center;
+	font-size:50px;
+}
+
+h2 {
+	color:white;
+	font-family:Lobster Two;
+	text-align:center;
+}
+
+p {
+	color:#cecece;
+	text-align:justify;
+}
+
+div {
+	font-size:130%;
+}
+
+img {
+	width:600px;
+}
+
+ul {
+	color:#cecece;
+	text-align:center;
+	
+}
+
+ul li {
+	font-size:18px;
+	
+}
+
+a {
+	display:inline;
+	color:#9EFD38;
+	text-decoration:none;
+	font-size:25px;
+}
+
+#lettrine:first-letter {
+	font-family : Verdana;
+	font-size : 30px;
+	color : #9EFD38;
+}
+
+
