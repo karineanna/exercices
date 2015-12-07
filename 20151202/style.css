@@ -1,0 +1,10 @@
+body {
+	color: blue;
+}
+.cached {
+	display: none;
+}
+
+h1 {
+	color: black;
+}

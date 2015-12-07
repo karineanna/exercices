@@ -1,0 +1,120 @@
+ <!DOCTYPE html>
+<html>
+<head>
+		<meta charset="UTF-8">
+
+<title>Title of the document</title>
+</head>
+<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+
+<body>
+	<h1>HTML ET CSS</h1>
+
+	<img src="http://www.w3.org/html/logo/downloads/HTML5_Logo_256.png" />
+
+	<img src="http://www.jessycahervieux.fr/images/logo/css.png" />
+
+	<ul style=""list-style-type:upper-roman;">
+		<li>Les Balises</li>
+		<li>id et classe</li>
+		<li>Le CSS</li>
+		<li>Les Box Model</li>
+		<li>Separation of concerns</li>
+		<li>Pseudo Classes</li>
+
+	<h2>Les balises</h2>
+
+		<p>Les balises sont des élements de strusture de données. On ouvre avec le signe <, on ajoute le nom de la balise, et on ferme avec >
+		balise ouvrante balise fermante ex: <div> et les auto fermantes : <img /> </p>
+		
+		<p>Nos balises sont des indicateurs pr le navigateur. L'utilisateur ne perçoit que le contenu.
+			Ds certains cas ns avons besoin de plus d'info à transmettre au navigateur.
+			Pr une image, on lui donnera l url de l'image, on utilise l attribut src au sein de la balise.
+			Ex : une image <img src="url_de_mon_image.jpg"/>
+		
+		<p>Ls attributs se situent tjrs à l'interieur de la balise à laquelle ils sont associés.
+		
+		<img src="course.jpg" alt="texte alternatif qui s'affichera ds le contenu pr decrire le contenu de l image (obligatoire)" title="Une femme qui court" />
+
+		<p>
+		
+	<h2>id et classe</h2>
+		
+		<p>L'attribut "id" identifie de maniere unique un element.</p>
+		<P>L'attribut 'class' permet une mise en forme (par le CSS)</p>
+			
+			<code>
+					<img src="" alt="" class="fullscreen"/>
+			<code>
+				<p> Ds le CSS, on aura donc la definition de la class '.fulllscreen' : { width : 100% }'</p>
+
+
+	<h2>Le CSS</h2>
+	
+		<p>Cascading Style Sheet</p>
+	
+		<p>
+			Pr la mise en forme et la presentation de blocs en .html. Le Html s'occupe du fond, du texte et du contenu.
+		</p>
+
+		<code>
+			.foo {
+
+				color: blue
+				border: 1px solid yellow
+			}  
+		</code>
+
+			<p>1px : on na pas tout ecrasé. Uniquement les regles qui sont re ecrites. Ds notre cas, uniquement la regle color a ete remplacé. 
+			</p>
+		<ol>
+			<li>ordre</li>
+			<li>id vers class vers element</li>
+		</ol>
+
+		<p>class="big  lettrine" id="foo"</p>
+
+		<P>pr selectionner une classe : on ajoute un prefixe '.' : .maClass
+		pr selctionner un attribut via l'id : '#' : #idUnique 
+		per selectionner via l'attribut : [ mon Attribut ]</p>
+
+	<h2>Les Box Model</h2>
+
+	<img src="http://www.havequery.com/resources/images/boxmodel1.png" />
+
+		<p>En prenant n'importe quelle page web, on clique droit un element, on click ensuite sur inspect Box, puis visualisons Box model.</p>
+
+		<p>Ici nous voyons comment est calculé la box model défini selon:</p>
+
+		<ul>
+			<li>la largeur</li>
+			<li>le padding</li>
+			<li>bordure</li>
+			<li>la marge</li>
+		</ul>
+
+		<p>La largeur de l'élément est égal à l'addition du padding, bordure et marge.</p>
+
+	<h2>Separation of concerns</h2>
+
+		<p>On sépare les éléments qui n'ont pas de liens entre eux.<br>
+			Séparation entre la:
+			<ul>
+				<li>CSS La forme</li>
+				<li>HTML le fond</li>
+				<li>JS l'interaction</li>
+			</ul>
+		</p>
+
+	<h2>Pseudo Classes</h2>
+
+		<p>Une pseudo-classe CSS est un mot-clé ajouté au sélecteur pour indiquer un état particulier de l'élément qui doit être sélectionné. Par exemple, :hover, appliquera le style quand l'utilisateur survolera l'élément visé par le sélecteur.</p>
+
+	<a href="https://developer.mozilla.org/fr/docs/Web/CSS/Pseudo-classes">
+		Les pseudos classes expliqué par Mozilla</a></a>
+
+
+
+</body>
+
+</html> 

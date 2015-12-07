@@ -1,0 +1,25 @@
+
+
+	p  {
+		font-family: Garamond;
+		font-size: 18px;
+	}
+
+	h1	{
+		font-family: Garamond;
+    	font-size: 48px;
+    	text-align: center;
+    	color: #cecece;
+	}
+
+	h2	{
+		font-family: Garamond;
+    	font-size: 24px;		
+	}
+	body {
+			width: 800px;
+			margin: auto;
+			background-color: #e0ebeb;
+	}
+	
+
