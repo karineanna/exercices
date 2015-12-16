@@ -19,3 +19,4 @@ comparChaine("blablabla blablabla");
 var foo = "ifvhdlkshvlkdhvlh eoifheoiz";
 comparChaine(foo);
 comparChaine("JIKJKJK");
+
